@@ -1,10 +1,10 @@
 body {
 	position: relative;
-	margin: 0 0 0 0;
-	border: 2px solid black;
-	background-image: url('pageBack.jpg');
+	border: #CE6C51 thick solid;
+	background-image: url('menu-restaurant-background-11.jpg');
 	background-repeat: repeat;
 	height: calc(100vh - 4px);
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 @media screen and (min-width: 768px) {
@@ -17,6 +17,7 @@ body {
 
 /*Login Page css begins*/
 #log {
+	
 	font-weight: bolder;
 	font-size: 25px;
 	line-height: 0px;
@@ -31,51 +32,46 @@ p {
 #loginPanel input[type="text"] {
 	font-weight: bold;
 	background-color: transparent;
-	background-image: url('user.png');
-	background-position: 10px 6px;
-	background-repeat: no-repeat;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left: 40px;
-	border: 2px solid black;
+	border: medium solid black;
 }
 
 #loginPanel input[type="password"] {
 	font-weight: bold;
 	background-color: transparent;
-	background-image: url('key.png');
-	background-position: 5px 3px;
-	background-repeat: no-repeat;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left: 40px;
-	border: 2px solid black;
+	border: medium solid black;
 }
 
 #loginPanel input[type = "submit"] {
 	padding: 10px 30px;
-	font-weight: bolder;
-	background-image: url(lock.png);
-	background-position: 0px 0px;
+	background-iimage: url(lock.png);
+	background-color: chocolate;
+	background-size: cover;
 	background-repeat: no-repeat;
-	border:2px solid black;
+	border:2px solid black thin;
+	font-weight: bold;
 }
 
 #loginPanel input[type = "submit"]:hover {
 	padding: 10px 30px;
-	font-weight: bolder;
-	background-image: url(unlock.png);
-	background-position: 0px 0px;
+	background-color: chocolate;
+	background-size: cover;
 	background-repeat: no-repeat;
-	border:2px solid black;
+	border:2px solid black thin;
+	font-size: medium;
+	font-weight: bold;
 }
 
-#restaurantName h1 {
+#restaurantName {
 	text-align: center;
-	padding: 20px 50px;
-	text-decoration: none;
-	font-family: Comic sans ms;
-	font-size: 40px
+	padding: 20px 20px;
+	text-decoration: underline;
+	font-size: 40px;
 }
 
 #loginPanel {
@@ -96,10 +92,10 @@ p {
 }
 
 #loginPanel a:hover {
-	color: white;
+	color: black;
 	background-color: transparent;
 	font-size: 20px;
-	text-decoration: red underline overline wavy;
+	text-decoration: none;
 }
 
 #hoursofservice {
@@ -111,9 +107,7 @@ p {
 }
 
 #contactInfo {
-	position: absolute;
-	bottom: 10px;
-	left: 20px;
+	
 }
 /*Login Page css ends*/
 
