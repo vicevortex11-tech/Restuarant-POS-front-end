@@ -155,6 +155,7 @@ p {
   }
   
   .column img {
+	  image-rendering: auto;
 	margin-top: 8px;
 	vertical-align: middle;
   }
